@@ -3,9 +3,9 @@ package adb
 import (
 	"testing"
 
+	"github.com/aqaurius6666/goadb/internal/errors"
+	"github.com/aqaurius6666/goadb/wire"
 	"github.com/stretchr/testify/assert"
-	"github.com/zach-klippenstein/goadb/internal/errors"
-	"github.com/zach-klippenstein/goadb/wire"
 )
 
 func TestParseDeviceStatesSingle(t *testing.T) {
